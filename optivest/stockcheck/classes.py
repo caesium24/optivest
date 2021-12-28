@@ -1,6 +1,5 @@
 class Stock:
-  def __init__(self, name, ticker, c_price):
-    self.name = name
+  def __init__(self, ticker, c_price,):
     self.ticker = ticker
     self.c_price = c_price
 
